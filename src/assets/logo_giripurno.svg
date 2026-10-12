@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <style>
+      .blue-line { stroke: #2692DE; stroke-linecap: round; fill: none; }
+      .blue-shape { fill: #2692DE; }
+      .text-title { font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; font-weight: 800; fill: #2692DE; text-anchor: middle; }
+      .text-tagline { font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; font-weight: 700; fill: #2692DE; text-anchor: middle; font-style: italic; }
+    </style>
+  </defs>
+
+  <!-- Concentric arcs forming the spiral / circle -->
+  <g transform="translate(0, 5)">
+    <!-- 7 concentric lines with gap at top-right for leaves -->
+    <!-- Arc 1 (outermost) -->
+    <path class="blue-line" stroke-width="6.5" d="M 330,85 A 148,148 0 1 0 376,176 A 148,148 0 0 0 354,124" />
+    
+    <!-- Arc 2 -->
+    <path class="blue-line" stroke-width="6" d="M 320,95 A 134,134 0 1 0 362,176 A 134,134 0 0 0 342,130" />
+
+    <!-- Arc 3 -->
+    <path class="blue-line" stroke-width="5.5" d="M 310,105 A 120,120 0 1 0 348,176 A 120,120 0 0 0 330,136" />
+
+    <!-- Arc 4 -->
+    <path class="blue-line" stroke-width="5" d="M 300,115 A 106,106 0 1 0 334,176 A 106,106 0 0 0 318,142" />
+
+    <!-- Arc 5 -->
+    <path class="blue-line" stroke-width="4.5" d="M 290,125 A 92,92 0 1 0 320,176 A 92,92 0 0 0 306,148" />
+
+    <!-- Arc 6 -->
+    <path class="blue-line" stroke-width="4" d="M 280,135 A 78,78 0 1 0 306,176 A 78,78 0 0 0 294,154" />
+
+    <!-- Arc 7 (innermost circle) -->
+    <path class="blue-line" stroke-width="3.5" d="M 270,145 A 64,64 0 1 0 292,176 A 64,64 0 0 0 282,160" />
+
+    <!-- Top Right Leaves -->
+    <!-- Leaf 1 (Left / larger leaf) -->
+    <path class="blue-shape" d="M 342,118 C 336,88 312,46 284,24 C 283,56 295,94 328,114 Z" />
+    <path stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none" d="M 333,110 C 314,84 298,58 288,32" />
+
+    <!-- Leaf 2 (Right / smaller leaf) -->
+    <path class="blue-shape" d="M 344,114 C 362,94 394,68 424,56 C 414,88 386,116 350,120 Z" />
+    <path stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" fill="none" d="M 350,116 C 378,98 398,82 416,63" />
+
+    <!-- Mountain Emblem in the Center (M shape) -->
+    <!-- Left Wing of M -->
+    <path class="blue-shape" d="M 178,226 C 172,226 168,220 172,214 L 236,134 C 242,126 254,126 260,134 L 286,168 C 290,174 286,182 278,186 L 246,204 C 240,208 232,206 228,200 L 218,186 L 186,224 C 184,226 181,226 178,226 Z" />
+
+    <!-- Right Wing of M -->
+    <path class="blue-shape" d="M 242,226 C 238,226 234,222 236,218 L 298,134 C 304,126 316,126 322,134 L 370,196 C 376,204 372,216 362,220 L 334,226 C 328,228 322,224 320,218 L 308,200 L 292,222 C 290,225 286,226 282,226 Z" />
+  </g>
+
+  <!-- Typography -->
+  <text x="250" y="372" class="text-title" font-size="46" letter-spacing="3.5">GIRIPURNO</text>
+  <text x="250" y="432" class="text-title" font-size="54" letter-spacing="8">MULYO</text>
+  <text x="250" y="468" class="text-tagline" font-size="16" letter-spacing="0.5">Manunggal Ing Roso Lan Karyo</text>
+</svg>

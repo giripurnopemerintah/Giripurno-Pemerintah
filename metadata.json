@@ -1,0 +1,7 @@
+{
+  "name": "Arsip Desa Giripurno",
+  "description": "Sistem informasi arsip digital dokumen dan foto kegiatan Desa Giripurno, Kecamatan Ngadirejo, Kabupaten Temanggung.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
